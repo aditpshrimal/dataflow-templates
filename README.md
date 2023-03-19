@@ -9,7 +9,7 @@ This repository contains a collection of Apache Beam Dataflow pipelines, demonst
 3. **Cloud Storage to BigQuery (Batch)**: A Dataflow pipeline that reads files from Cloud Storage, processes them, and writes the results to a BigQuery table in batch mode.
 4. **Cloud Storage to BigQuery (Streaming)**: A Dataflow pipeline that reads files from Cloud Storage and writes the processed data to a BigQuery table using streaming inserts.
 
-![Architecture Diagram](architecture.png)
+![Architecture Diagram](architecture.jpg)
 
 ## Prerequisites
 
