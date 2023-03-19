@@ -1,0 +1,8 @@
+/home/adit/IdeaProjects/bewakoof_analytics/src/main/java/org/bewakoof/analytics/dataflowjobs/TextIOToBigQueryStreaming.java
+/home/adit/IdeaProjects/bewakoof_analytics/src/main/java/org/bewakoof/analytics/dataflowjobs/PubSubToCloudStorage.java
+/home/adit/IdeaProjects/bewakoof_analytics/src/main/java/org/bewakoof/analytics/dataflowjobs/WriteOneFilePerWindow.java
+/home/adit/IdeaProjects/bewakoof_analytics/src/main/java/org/bewakoof/analytics/common/utils.java
+/home/adit/IdeaProjects/bewakoof_analytics/src/main/java/org/bewakoof/analytics/common/JsonToRowConverter.java
+/home/adit/IdeaProjects/bewakoof_analytics/src/main/java/org/bewakoof/analytics/dataflowjobs/TextIOToBigQuery.java
+/home/adit/IdeaProjects/bewakoof_analytics/src/main/java/org/bewakoof/analytics/dataflowjobs/TextIOToBigQueryTest.java
+/home/adit/IdeaProjects/bewakoof_analytics/src/main/java/org/bewakoof/analytics/common/BigQueryTableSchema.java
