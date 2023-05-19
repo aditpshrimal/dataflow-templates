@@ -44,7 +44,7 @@ public class TextIOToBigQueryStreaming {
         String inputFilePrefix = options.getInputFileLocation().get();
         Pipeline pipeline = Pipeline.create(options);
 
-        PCollection<String> event = pipeline.apply(TextIO.read().from(inputFilePrefix + "event/2023/03/18/*/*")
+        PCollection<String> event = pipeline.apply(TextIO.read().from(inputFilePrefix + "event/YYYY/MM/DD/*/*")
                 .watchForNewFiles(Duration.standardMinutes(5), Watch.Growth.afterTimeSinceNewOutput(Duration.standardDays(7))));
         event.apply(MapElements.via(new SimpleFunction<String, TableRow>() {
                     @Override
