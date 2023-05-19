@@ -8,8 +8,9 @@ This repository contains a collection of Apache Beam Dataflow pipelines, demonst
 2. **Pub/Sub to Cloud Storage (Streaming)**: A Dataflow pipeline that reads raw events from a Cloud Pub/Sub topic, processes them, and writes the results to Cloud Storage in windows of a specified size.
 3. **Cloud Storage to BigQuery (Batch)**: A Dataflow pipeline that reads files from Cloud Storage, processes them, and writes the results to a BigQuery table in batch mode.
 4. **Cloud Storage to BigQuery (Streaming)**: A Dataflow pipeline that reads files from Cloud Storage and writes the processed data to a BigQuery table using streaming inserts.
-
-![Architecture Diagram](architecture.jpg)
+<p align="center">
+  <img src="architecture.jpg" alt="Description of the image" width="400" height="400">
+</p>
 
 ## Prerequisites
 
